@@ -55,7 +55,7 @@ class PortfolioOptimization:
             weights = weights / np.sum(weights)
             
             # setting returns, volatility, and sharpe-ratio as numpy arrays
-            returns[iter] = np.sum((self.get_log().mean() * weights) * 252)
+            returns[iter] = np.sum((self.get_log().mean() * weights) * 252) - 0.006
             volatility[iter] = np.sqrt(
                 np.dot(weights.T, 
                 np.dot(self.get_log().cov() * 252, 
