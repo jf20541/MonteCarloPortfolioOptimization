@@ -14,7 +14,7 @@ The Sharpe Ratio gives market-participants the confidence to apply leverage.
 
 Created 4 modules
 - `config.py`: Define Global Variable for Paths
-- `main.py`: 
+- `main.py`: Monte Carlo Simulation and calculating the max annualized sharpe-ratio
 - `data.py`: Extract the Adjusted-Closing Price for each sector ETF
 
 ### Install
@@ -32,7 +32,7 @@ In a terminal or command window, navigate to the top-level project directory `Mo
 pip install --upgrade pip && pip install -r requirements.txt
 ``` 
 
-### Data: Sector SPDR ETFs
+## Data: Sector SPDR ETFs
 [Collecting Sector SPDR ETFs](https://www.sectorspdr.com/sectorspdr/)
 
 - `SPY`: S&P 500 Index Fund 
