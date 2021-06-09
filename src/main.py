@@ -1,7 +1,6 @@
 import pandas as pd
 import config
 import numpy as np
-import matplotlib.pyplot as plt
 from pprint import pprint
 
 
