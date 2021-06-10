@@ -11,21 +11,20 @@ The Sharpe Ratio gives market-participants the confidence to apply leverage.
 
 ## Output
 ```bash
-
-Returns                                                       0.445189
-Volatility                                                    0.197381
-Sharpe Ratio                                                  2.835657
+Returns        0.445189
+Volatility     0.197381
+Sharpe Ratio   2.835657
 
 SPY,0.15537764950322155
 XLB,0.14840094378559168
 XLE,0.11230647154471428
 XLF,0.07320378035724731
-XLI,0.009229487399992232
+XLI,0.00922948739999223
 XLK,0.13076865641677185
 XLP,0.13864787179631605
 XLU,0.13783414102104255
 XLV,0.06801761827474444
-XLY,0.026213379900358078
+XLY,0.02621337990035807
 ```
 
 ### Code
