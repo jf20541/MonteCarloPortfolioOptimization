@@ -3,10 +3,10 @@
 ## Goal
 Using Monte Carlo Simulation for Portfolio Optimization by assigning random weights to each Sector SPDR ETF\
 Iterating n-times to increase the accuracy for portfolio optimization\
-Collecting portfolio's returns and standard deviation to calculate Portfolio's Sharpe-Ratio\
+Collecting portfolio's returns and standard deviation to calculate Portfolio's Sharpe-Ratio
 
 ## Metric
-Sharpe Ratio (risk adjusted return): the ratio of Portolfio's Returns to Portfolio's Volatility (risk), normally annualized.
+Sharpe Ratio (risk adjusted return): the ratio of Portolfio's Returns to Portfolio's Volatility (risk), annualized.\
 The Sharpe Ratio gives market-participants the confidence to apply leverage.
 
 ## Output
@@ -29,13 +29,12 @@ XLY,0.02621337990035807
 
 ### Code
 Created 3 modules
-- `config.py`: Define Global Variable for Paths
-- `main.py`: Monte Carlo Simulation and calculating the max annualized sharpe-ratio
-- `data.py`: Extract the Adjusted-Closing Price for each sector ETF
+- `config.py`: Define path as global variables
+- `main.py`: Monte Carlo Simulation and calculating the max annualized sharpe-ratio and returns
+- `data.py`: Extract the Adjusted-Closing Price for each SPDR Sector ETF
 
 ### Install
 Install the following Python libraries
-
 - [NumPy](http://www.numpy.org/)
 - [Pandas](http://pandas.pydata.org)
 - [YFinance](https://pypi.org/project/yfinance/)
