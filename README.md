@@ -44,7 +44,6 @@ In a terminal or command window, navigate to the top-level project directory `Mo
 ```bash
 pip install --upgrade pip && pip install -r requirements.txt
 ``` 
-
 ## Data: Sector SPDR ETFs
 [Collecting Sector SPDR ETFs](https://www.sectorspdr.com/sectorspdr/)
 - `SPY`: S&P 500 Index Fund 
@@ -57,3 +56,5 @@ pip install --upgrade pip && pip install -r requirements.txt
 - `XLU`: Utilites
 - `XLV`: Health Care
 - `XLP`: Consumer Staples
+
+## Sources
