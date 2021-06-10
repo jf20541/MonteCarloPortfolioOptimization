@@ -9,9 +9,21 @@ Collecting portfolios returns and standard deviation to calculate Sharpe Ratio
 Sharpe Ratio (risk adjusted return): the ratio of reward (Portolfio's Returns) to risks (Portfolio's Volatility), normally annualized.
 The Sharpe Ratio gives market-participants the confidence to apply leverage.
 
+## Output
+```bash
+SPY,0.15537764950322155
+XLB,0.14840094378559168
+XLE,0.11230647154471428
+XLF,0.07320378035724731
+XLI,0.009229487399992232
+XLK,0.13076865641677185
+XLP,0.13864787179631605
+XLU,0.13783414102104255
+XLV,0.06801761827474444
+XLY,0.026213379900358078
+```
 
 ### Code
-
 Created 4 modules
 - `config.py`: Define Global Variable for Paths
 - `main.py`: Monte Carlo Simulation and calculating the max annualized sharpe-ratio
@@ -25,16 +37,13 @@ Install the following Python libraries
 - [YFinance](https://pypi.org/project/yfinance/)
 
 ### Run
-
 In a terminal or command window, navigate to the top-level project directory `MonteCarloPorfolioOptimization/` (that contains this README) and run the following command:
-
 ```bash
 pip install --upgrade pip && pip install -r requirements.txt
 ``` 
 
 ## Data: Sector SPDR ETFs
 [Collecting Sector SPDR ETFs](https://www.sectorspdr.com/sectorspdr/)
-
 - `SPY`: S&P 500 Index Fund 
 - `XLF`: Financial
 - `XLY`: Consumer Discretionary
