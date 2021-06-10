@@ -11,6 +11,11 @@ The Sharpe Ratio gives market-participants the confidence to apply leverage.
 
 ## Output
 ```bash
+
+Returns                                                       0.445189
+Volatility                                                    0.197381
+Sharpe Ratio                                                  2.835657
+
 SPY,0.15537764950322155
 XLB,0.14840094378559168
 XLE,0.11230647154471428
@@ -24,7 +29,7 @@ XLY,0.026213379900358078
 ```
 
 ### Code
-Created 4 modules
+Created 3 modules
 - `config.py`: Define Global Variable for Paths
 - `main.py`: Monte Carlo Simulation and calculating the max annualized sharpe-ratio
 - `data.py`: Extract the Adjusted-Closing Price for each sector ETF
