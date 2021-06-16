@@ -1,6 +1,6 @@
 # MonteCarloPortfolioOptimization
 
-## Goal
+## Objective
 Using Monte Carlo Simulation for Portfolio Optimization by assigning random weights to each Sector SPDR ETF\
 Iterating n-times to increase the accuracy for portfolio optimization\
 Collecting portfolio's returns and standard deviation to calculate Portfolio's Sharpe-Ratio
@@ -58,3 +58,4 @@ pip install --upgrade pip && pip install -r requirements.txt
 - `XLP`: Consumer Staples
 
 ## Sources
+https://www.sectorspdr.com/sectorspdr/
