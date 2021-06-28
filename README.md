@@ -33,12 +33,6 @@ Created 3 modules
 - `main.py`: Monte Carlo Simulation and calculating the max annualized sharpe-ratio and returns
 - `data.py`: Extract the Adjusted-Closing Price for each SPDR Sector ETF
 
-### Install
-Install the following Python libraries
-- [NumPy](http://www.numpy.org/)
-- [Pandas](http://pandas.pydata.org)
-- [YFinance](https://pypi.org/project/yfinance/)
-
 ### Run
 In a terminal or command window, navigate to the top-level project directory `MonteCarloPorfolioOptimization/` (that contains this README) and run the following command:
 ```bash
