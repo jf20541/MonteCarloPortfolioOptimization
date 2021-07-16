@@ -1,9 +1,7 @@
 # MonteCarloPortfolioOptimization
 
 ## Objective
-Using Monte Carlo Simulation for Portfolio Optimization by assigning random weights to each Sector SPDR ETF\
-Iterating n-times to increase the accuracy for portfolio optimization\
-Collecting portfolio's returns and standard deviation to calculate Portfolio's Sharpe-Ratio
+Implementing Monte Carlo Simulation for Portfolio Optimization by assigning random weights to each Sector SPDR ETF. Iterating n-times to increase the accuracy for portfolio optimization. Calculating portfolio's returns and standard deviation to calculate Portfolio's Sharpe-Ratio
 
 ## Metric
 Sharpe Ratio (risk adjusted return): the ratio of Portolfio's Returns to Portfolio's Volatility (risk), annualized.\
