@@ -7,6 +7,8 @@ Implementing Monte Carlo Simulation for Portfolio Optimization by assigning rand
 Sharpe Ratio (risk adjusted return): the ratio of Portolfio's Returns to Portfolio's Volatility (risk), annualized.\
 The Sharpe Ratio gives market-participants the confidence to apply leverage.
 
+## Mathematics
+
 ## Output
 ```bash
 Returns        0.445189
@@ -25,17 +27,11 @@ XLV,0.06801761827474444
 XLY,0.02621337990035807
 ```
 
-### Code
-Created 3 modules
-- `config.py`: Define path as global variables
+## Code
 - `main.py`: Monte Carlo Simulation and calculating the max annualized sharpe-ratio and returns
 - `data.py`: Extract the Adjusted-Closing Price for each SPDR Sector ETF
+- `config.py`: Define path as global variables
 
-### Run
-In a terminal or command window, navigate to the top-level project directory `MonteCarloPorfolioOptimization/` (that contains this README) and run the following command:
-```bash
-pip install --upgrade pip && pip install -r requirements.txt
-``` 
 ## Data: Sector SPDR ETFs
 [Collecting Sector SPDR ETFs](https://www.sectorspdr.com/sectorspdr/)
 - `SPY`: S&P 500 Index Fund 
