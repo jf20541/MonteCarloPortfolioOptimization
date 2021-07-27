@@ -26,11 +26,16 @@ XLU,0.13783414102104255
 XLV,0.06801761827474444
 XLY,0.02621337990035807
 ```
-
-## Code
-- `main.py`: Monte Carlo Simulation and calculating the max annualized sharpe-ratio and returns
-- `data.py`: Extract the Adjusted-Closing Price for each SPDR Sector ETF
-- `config.py`: Define path as global variables
+## Repository File Structure
+    .
+    ├── requierments.txt     # Packages used for project
+    ├── src/                 # Code file for project
+    ├── main.py              # Monte Carlo Simulation and calculating the max annualized sharpe-ratio and returns
+    ├── data.py              # Extract the Adjusted-Closing Price for each SPDR Sector ETF
+    ├── config.py            # Define path as global variables
+    ├── inputs/              # Data file for project 
+    ├── train.csv            # Adj-Closing Price
+    └── sector_weights.csv   # Output for optimal sector weights
 
 ## Data: Sector SPDR ETFs
 [Collecting Sector SPDR ETFs](https://www.sectorspdr.com/sectorspdr/)
