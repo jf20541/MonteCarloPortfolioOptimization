@@ -27,7 +27,6 @@ XLV,0.06801761827474444
 XLY,0.02621337990035807
 ```
 ## Repository File Structure
-    .
     ├── requierments.txt     # Packages used for project
     ├── src/                 # Code file for project
     ├── main.py              # Monte Carlo Simulation and calculating the max annualized sharpe-ratio and returns
