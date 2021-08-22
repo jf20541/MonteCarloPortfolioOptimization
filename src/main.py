@@ -9,22 +9,22 @@ class PortfolioOptimization:
         self.timeseries = timeseries
 
     def get_log(self):
-        """
-        Calculting Log-Returns
-        """
+        """Returns: [float]:  Adjusted Closing Price Log-Returns"""
         return self.timeseries.apply(lambda x: np.log(x) - np.log(x.shift(1))).dropna()
 
     def weights(self):
-        """
-        Calculating balance weights for each asset
-        """
+        """Returns: [float]: Random balance weights for each asset"""
         random_weights = np.array(np.random.random(self.timeseries.shape[1]))
         rebalance_weights = random_weights / np.sum(random_weights)
         return rebalance_weights
 
     def sharpe_ratio(self, port_return, port_risk, risk_free=0.006):
-        """
-        Calculating Annualized Sharpe Ratio: (portfolio return - risk free rate) / porfolio volatility
+        """Calculating Annualized Sharpe Ratio: (portfolio return - risk free rate) / porfolio volatility
+        Args:
+            port_return [float]: Portfolio's annusalized return
+            port_risk [float]: Portfolio's annusalized risk (standard deviation)
+            risk_free (float, optional): [1 year Bond]. Defaults to 0.006.
+        Returns: [float]: [Annusalized Sharpe-Ratio]
         """
         port_return = np.sum((self.get_log().mean() * self.weights()) * 252) - 0.006
         port_risk = np.sqrt(
@@ -33,8 +33,9 @@ class PortfolioOptimization:
         return port_return / port_risk
 
     def monte_carlo(self, n_iterations):
-        """
-        Monte Carlo Simulation
+        """Monte Carlo simulating n_iterations
+        Args:
+            n_iterations [int]: Number of interations (Higher the number of iterations, higher will be the accuracy)
         """
         portfolio_weights = np.zeros((n_iterations, self.timeseries.shape[1]))
         returns, volatility, sharperatio = (
