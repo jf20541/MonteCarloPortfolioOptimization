@@ -49,6 +49,3 @@ XLY,0.02621337990035807
 - `XLU`: Utilites
 - `XLV`: Health Care
 - `XLP`: Consumer Staples
-
-## Sources
-https://www.sectorspdr.com/sectorspdr/
